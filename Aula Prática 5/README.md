@@ -4,11 +4,11 @@ Nessa aula prática o intuito foi paralelizar a função preencheVetor do arquiv
 Podendo utilizar a biblioteca pthread ou `std::thread`.
 
 ### 📚 Lembrando que:
-<br> `pthread` é o padrão C
+`pthread` é o padrão C
 <br> `std::thread` é o padrão C++
 
 ### 👨🏻‍💻 Para compilar o código:
-<br>`g++ -o pratica5 -O3 -std=c++11 pratica5.cpp -pthread -lm`
+`g++ -o pratica5 -O3 -std=c++11 pratica5.cpp -pthread -lm`
 <br>ou
 <br>`icpc -o pratica5 -O3 -std=c++11pratica5.cpp -pthread -lm` <em>(Compilador de C++ desenvolvido pela Intel).</em>
 
