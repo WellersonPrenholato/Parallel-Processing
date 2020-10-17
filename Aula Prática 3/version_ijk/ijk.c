@@ -46,9 +46,8 @@ int main(int argc, char *argv[]){
         mat1[i]= (int*)malloc(dimensao*sizeof(int));
         // printf("\n");
         for(j=0; j<dimensao; j++){
-            // mat1[i][j] = 1;
+            mat1[i][j] = 1;
             // printf("Matriz %d %d: ", i,j);
-			scanf("%d", &mat1[i][j]);
         }
     }
 	
@@ -58,9 +57,9 @@ int main(int argc, char *argv[]){
 		mat2[i]= (int*)malloc(dimensao*sizeof(int));
         // printf("\n");
 		for(j=0; j<dimensao; j++){
-            // mat2[i][j] = 1;
+            mat2[i][j] = 1;
             // printf("Matriz %d %d: ", i,j);
-			scanf("%d", &mat2[i][j]);
+			// scanf("%d", &mat2[i][j]);
 		}
 	}
     // printf("\n");
@@ -79,15 +78,15 @@ int main(int argc, char *argv[]){
     mat3 = produto(dimensao, mat1, mat2);
 
     //Impressao Matriz resultado
-	printf("MATRIZ RESULTADO:\n");
-	printf("*** Matriz 3 ***\n");
-	for(i=0; i<dimensao;i++){
-		printf("\n");
-		for(j=0; j<dimensao; j++){
-			printf("%d ", mat3[i][j]);
-		}
-	}
-    printf("\n\n");
+	// printf("MATRIZ RESULTADO:\n");
+	// printf("*** Matriz 3 ***\n");
+	// for(i=0; i<dimensao;i++){
+	// 	printf("\n");
+	// 	for(j=0; j<dimensao; j++){
+	// 		printf("%d ", mat3[i][j]);
+	// 	}
+	// }
+    // printf("\n\n");
     printf("%.15lf\n", (MyClock()-inicio)/CLOCKS_PER_SEC);
 
     return 0;
