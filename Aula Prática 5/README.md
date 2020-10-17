@@ -9,7 +9,7 @@ Podendo utilizar a biblioteca pthread ou `std::thread`.
 
 ### 👨🏻‍💻 Para compilar o código:
 <br>`g++ -o pratica5 -O3 -std=c++11 pratica5.cpp -pthread -lm`
-ou
+<br>ou
 <br>`icpc -o pratica5 -O3 -std=c++11pratica5.cpp -pthread -lm` <em>(Compilador de C++ desenvolvido pela Intel).</em>
 
 Apesar do arquivo ter a extensão cpp e estarmos usando o compilador de C++, o código não contém nada específico de C++. 
