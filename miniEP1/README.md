@@ -1,9 +1,9 @@
 
 # Números primos da forma 2n² − 1
 
-Departamento de Computação e Eletrônica - CEUNES
-PRocessamento PaRalelo
-Prof. Oberlan Romão
+**Departamento de Computação e Eletrônica - CEUNES<br>
+Processamento Paralelo<br>
+Prof. Oberlan Romão**
 
 Como sabemos, um número é classificado como primo se ele é maior do que um e é divisível apenas por
 um e por ele mesmo. Apenas números naturais são classificados como primos. O dez primeiros números
